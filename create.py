@@ -3,7 +3,7 @@
 import logging
 import os
 import settings
-import util
+import util.util as util
 
 def main():
     """main"""
@@ -23,6 +23,9 @@ def main():
 
     # Get Enterprise ID
     enterprise_info = util.get_github_enterprise_id(token)
+    if enterprise_info is None or "id" not in enterprise_info:
+        logging.error("Failed to get GitHub Enterprise ID.")
+        raise SystemExit("Failed to get GitHub Enterprise ID.")
     enterprise_id = enterprise_info["id"]
     logging.info("Enterprise Info: %s", enterprise_info)
 
