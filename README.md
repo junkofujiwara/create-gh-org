@@ -8,7 +8,7 @@
 ```
 export GITHUB_TOKEN=your_github_token
 or
-set GITHUB_TOKEN=YOUR_GITHUB_TOKEN
+set GITHUB_TOKEN=your_github_token
 ```
 
 ### Execution
