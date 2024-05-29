@@ -28,7 +28,7 @@ This script works for;
 - ORG_PROFILE_NAME = The profile name of the new organization.
 - ORG_LOGIN = The login of the new organization.
 <br>
-[ORG_* Reference](https://docs.github.com/en/graphql/reference/input-objects#createenterpriseorganizationinput)
+ORG_* Reference: https://docs.github.com/en/graphql/reference/input-objects#createenterpriseorganizationinput
 <br>Enterprise ID will be taken from the slug via API.
 
 ### API References
