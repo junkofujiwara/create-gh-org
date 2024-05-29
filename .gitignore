@@ -1,5 +1,8 @@
 __pycache__/
 util/__pycache__/
 *.py[cod]
+venv/*
+myenv/*
 .DS_Store
 settings.py
+*.log
